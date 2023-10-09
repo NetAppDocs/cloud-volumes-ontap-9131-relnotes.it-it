@@ -442,9 +442,7 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="9f71cb3204a7c80e435b6337aed1e728" category="cell">256 TIB</block>
   <block id="6c3b49ddb811c2d88edee86163680009" category="section-title">Limiti per le licenze basate su nodo</block>
   <block id="d017aa906544a3348ee35d75ebb10b72" category="paragraph">I seguenti limiti di disco si applicano ai sistemi Cloud Volumes ONTAP che utilizzano licenze basate su nodo, che è il modello di licenza di generazione precedente che consente di concedere in licenza Cloud Volumes ONTAP per nodo. Le licenze basate su nodo sono ancora disponibili per i clienti esistenti.</block>
-  <block id="52960fb5a2829740ddef9c61b6015d59" category="list-text">Se si utilizza una licenza basata su nodo, è possibile acquistare più licenze basate su nodo per un sistema Cloud Volumes ONTAP BYOL per allocare più di 368 TIB di capacità.</block>
   <block id="275e3ef1a302e67e93bcf0f30d566f74" category="inline-link">Scopri come aggiungere ulteriori licenze di sistema a Cloud Volumes ONTAP</block>
-  <block id="05c9b06fc32318d0689c553219a9d496" category="paragraph">Il numero di licenze che è possibile acquistare per un sistema a nodo singolo o una coppia ha è illimitato. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>.</block>
   <block id="fff4bb20e652c529e2e22e76e56ed9b5" category="section-title">Nodo singolo con PAYGO Premium</block>
   <block id="40959eff270cd482e3813b16716a7ee3" category="cell">21 ^1^</block>
   <block id="c7867e37fc822edce03899d5be8cd610" category="cell">19 ^2^</block>
@@ -454,7 +452,6 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="cabc996760a00c42a2b15b388054d050" category="cell">Capacità massima del sistema con più licenze</block>
   <block id="bb49543449782c0f1b87b3ef8f49a6be" category="cell">*Dischi da soli*</block>
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">*Dischi + tiering dei dati*</block>
-  <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">368 TIB x ogni licenza</block>
   <block id="9dbb7f356b08de585f6ddbe523e4a8d8" category="section-title">HA si abbina a PAYGO Premium</block>
   <block id="156b98ab4634edb024f99442726e3e8d" category="cell">18 ^1^</block>
   <block id="dee0912fefbe003d7ae380d371a87fad" category="cell">16 ^2^</block>
@@ -705,4 +702,7 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="2de7023f95c4ec26ccc423bd34c3771c" category="paragraph">La patch 9.13.1 P1 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider se si dispone di un connettore con versione 3.9.26 o successiva. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.</block>
   <block id="a9380d77cd3c45a5f15f09b231323443" category="inline-link-macro">Visualizza l'elenco dei bug corretti nella patch P1</block>
   <block id="a381b8f37c04a51537dbe6d9053cfbbb" category="paragraph"><block ref="ccefc7f2c29a122e93c4f12a5703f3ec" category="inline-link-macro-rx"></block> (Accesso al NetApp Support Site richiesto).</block>
+  <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">2 PIB (richiede più licenze)</block>
+  <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="paragraph">Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes ONTAP BYOL a nodo singolo o coppia ha, per allocare più di 368 TiB di capacità, fino al limite massimo di capacità di sistema testato e supportato di 2 PIB. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>. Sebbene Cloud Volumes ONTAP supporti fino alla capacità massima testata e supportata di sistema di 2 PIB, il superamento del limite di 2 PIB comporta una configurazione di sistema non supportata.</block>
+  <block id="de9d6749570efc87e63811b5947fc250" category="paragraph">Il cloud segreto e le regioni del cloud top secret AWS supportano l'acquisto di licenze basate su nodi multipli a partire da Cloud Volumes ONTAP 9.12.1.</block>
 </blocks>
