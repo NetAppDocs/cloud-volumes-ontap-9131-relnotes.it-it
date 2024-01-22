@@ -365,7 +365,6 @@
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500</block>
   <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">Dimensione minima</block>
   <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20 MB</block>
-  <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100 TB</block>
   <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">*Qtree*</block>
   <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">Massimo per volume FlexVol</block>
   <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4,995</block>
@@ -504,7 +503,6 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="d5b5d1eda2a2c0d060f59094000e6aea" category="paragraph">Poiché richiede un indirizzo IP privato, limita il numero di VM storage aggiuntive che è possibile creare. L'unica eccezione è una coppia ha in più AZS. In tal caso, l'indirizzo IP per la LIF di gestione è un indirizzo _floating_ IP, quindi non viene contato rispetto al limite _private_ IP.</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">Limiti di file e volumi</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">Profondità del clone gerarchico ^1^</block>
-  <block id="87338ad799bddd85c6298bb9270dc27f" category="cell">100 TIB</block>
   <block id="b07f6144410a8635e8ae505b186322a5" category="summary">Queste note di rilascio descrivono nuove funzionalità, limitazioni e problemi noti di Cloud Volumes ONTAP 9.13.1.</block>
   <block id="a69b1618b78e74242413945e92315e51" category="doc">Note sulla versione di Cloud Volumes ONTAP 9.13.1</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">In AWS sono supportate diverse configurazioni Cloud Volumes ONTAP.</block>
@@ -723,4 +721,14 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="3ce503369e80942d964c3b72a728ac2c" category="paragraph">La patch 9.13.1 P4 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.</block>
   <block id="cae74b75cb879fa6011c4bc1e9acafed" category="inline-link-macro">Visualizza l'elenco dei bug corretti nella patch P4</block>
   <block id="174f5a3432e3e9670c04cb8a7c4f61c3" category="paragraph"><block ref="efca5c18573798e68d22652d087930ab" category="inline-link-macro-rx"></block> (Accesso al NetApp Support Site richiesto).</block>
+  <block id="64063abe39aac990beb215f4e4df9f92" category="cell">Dimensione massima ^2^</block>
+  <block id="d0bb632fcdb31cf3c729c1c59f826d4f" category="cell">128 TB</block>
+  <block id="95f8ab07e6196c13df81b9123cb42b19" category="cell">Dimensione massima ^3^</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300 TIB</block>
+  <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">A partire da ONTAP 9.12.1P2, il limite è di 128 TB. In ONTAP 9.11.1 e nelle versioni precedenti, il limite è di 16 TB.</block>
+  <block id="23631a3c0b249b8021bdc886f847e2ae" category="list-text">La creazione di volumi FlexVol fino alla dimensione massima di 300 TiB è supportata utilizzando i seguenti strumenti e le versioni minime:</block>
+  <block id="5680c249ee040de9c43f982996ed2a24" category="list-text">System Manager e la CLI di ONTAP a partire da Cloud Volumes ONTAP 9.12.1 P2 e 9.13.0 P2</block>
+  <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">BlueXP a partire da Cloud Volumes ONTAP 9.13.1</block>
+  <block id="e9829882fb6e0848cde711ff5e6fcbb1" category="list-text">La profondità dei cloni gerarchici è la profondità massima di una gerarchia nidificata di volumi FlexClone che è possibile creare da un singolo volume FlexVol</block>
+  <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
 </blocks>
