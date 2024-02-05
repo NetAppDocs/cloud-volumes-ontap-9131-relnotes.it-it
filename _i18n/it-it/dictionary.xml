@@ -731,4 +731,8 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">BlueXP a partire da Cloud Volumes ONTAP 9.13.1</block>
   <block id="e9829882fb6e0848cde711ff5e6fcbb1" category="list-text">La profondità dei cloni gerarchici è la profondità massima di una gerarchia nidificata di volumi FlexClone che è possibile creare da un singolo volume FlexVol</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
+  <block id="9be6e2b3828ef34b87981b1fed1d7d49" category="section-title">9.13.1 P6:00 (5 febbraio 2024)</block>
+  <block id="45c3fd07b44be9221ac34d409aa7afa2" category="paragraph">La patch 9.13.1 P6 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.</block>
+  <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">Visualizza l'elenco dei bug corretti nella patch P6</block>
+  <block id="417efdf7267a8f2b68aa9938ecb8ed83" category="paragraph"><block ref="40427ff7eb35eecb9c6ff0d928baffa1" category="inline-link-macro-rx"></block> (Accesso al NetApp Support Site richiesto).</block>
 </blocks>
