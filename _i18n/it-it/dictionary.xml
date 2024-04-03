@@ -735,4 +735,8 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="45c3fd07b44be9221ac34d409aa7afa2" category="paragraph">La patch 9.13.1 P6 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.</block>
   <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">Visualizza l'elenco dei bug corretti nella patch P6</block>
   <block id="417efdf7267a8f2b68aa9938ecb8ed83" category="paragraph"><block ref="40427ff7eb35eecb9c6ff0d928baffa1" category="inline-link-macro-rx"></block> (Accesso al NetApp Support Site richiesto).</block>
+  <block id="0c88f6b184303b59cc183ee814a77d0f" category="section-title">9.13.1 P7:00 (1 aprile 2024)</block>
+  <block id="d93fc7eec639f50d99d651224af0415e" category="paragraph">La patch 9.13.1 P7 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.</block>
+  <block id="7fa6a95154192207488dcc8bf13f9366" category="inline-link-macro">Visualizza l'elenco dei bug corretti nella patch P7</block>
+  <block id="d866ede0a0cfb0467de01472cce74e96" category="paragraph"><block ref="99febf770c92bc8fae26a27ba56cb73d" category="inline-link-macro-rx"></block> (Accesso al NetApp Support Site richiesto).</block>
 </blocks>
