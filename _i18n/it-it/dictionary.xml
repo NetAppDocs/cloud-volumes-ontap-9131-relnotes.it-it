@@ -503,7 +503,6 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="d5b5d1eda2a2c0d060f59094000e6aea" category="paragraph">Poiché richiede un indirizzo IP privato, limita il numero di VM storage aggiuntive che è possibile creare. L'unica eccezione è una coppia ha in più AZS. In tal caso, l'indirizzo IP per la LIF di gestione è un indirizzo _floating_ IP, quindi non viene contato rispetto al limite _private_ IP.</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">Limiti di file e volumi</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">Profondità del clone gerarchico ^1^</block>
-  <block id="b07f6144410a8635e8ae505b186322a5" category="summary">Queste note di rilascio descrivono nuove funzionalità, limitazioni e problemi noti di Cloud Volumes ONTAP 9.13.1.</block>
   <block id="a69b1618b78e74242413945e92315e51" category="doc">Note sulla versione di Cloud Volumes ONTAP 9.13.1</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">In AWS sono supportate diverse configurazioni Cloud Volumes ONTAP.</block>
   <block id="8bb0da4c260f565e0c8162ea9c2b7caa" category="doc">Configurazioni supportate in AWS</block>
@@ -747,4 +746,5 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="53ce0a94e090cdbb2c32cbf8aac660ce" category="paragraph">La patch 9.13.1 P9 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.</block>
   <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link-macro">Visualizzare l'elenco dei bug corretti nella patch P9</block>
   <block id="5e4596dae3990ec330418a9546e92a77" category="paragraph"><block ref="1e9f3632a6b42f23498b02cf3b6234ab" category="inline-link-macro-rx"></block> (Accesso al NetApp Support Site richiesto).</block>
+  <block id="66929aea59eb5153444c9aa0a8e8722f" category="sidebar">Queste note di rilascio descrivono nuove funzionalità, limitazioni e problemi noti di Cloud Volumes ONTAP 9,13.</block>
 </blocks>
