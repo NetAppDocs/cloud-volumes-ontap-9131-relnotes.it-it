@@ -20,6 +20,14 @@ Ulteriori funzionalità e miglioramenti sono stati introdotti anche nelle ultime
 
 
 
+== 9.13.1 P12:00 (25 novembre 2024)
+
+La patch 9.13.1 P12 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P12["Visualizzare l'elenco dei bug corretti nella patch P12"^] (Accesso al sito di supporto NetApp richiesto).
+
+
+
 == 9.13.1 P11:00 (14 ottobre 2024)
 
 La patch 9.13.1 P11 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
@@ -109,11 +117,17 @@ Alcuni miglioramenti delle prestazioni di FabricPool potrebbero influire sui dat
 .Velocità di lettura sequenziale e miglioramento del tiering
 A causa delle performance di lettura e del throughput di tiering migliorati in FabricPool, potrebbe esserci un tasso di `PUT` operazioni più elevato `GET` negli archivi di oggetti on-premise. Assicurati che le prestazioni siano sufficienti per ottenere prestazioni senza interruzioni.
 
+Per ulteriori informazioni, fare riferimento alla https://www.netapp.com/media/17239-tr-4598.pdf["Guida alle Best Practice per FabricPool"^]
+
 .Funzionalità aggressiva di Readahead
 La `Aggressive Readahead` funzionalità di FabricPool può aumentare le operazioni di lettura a livello di file, che a loro volta possono sommare i costi di lettura e l'utilizzo della memoria nel cloud pubblico.
 
+Per ulteriori informazioni, consulta la documentazione di ONTAP: https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-aggressive-read-ahead-task.html#enable-aggressive-read-ahead-mode-during-volume-creation["Attiva e disattiva la modalità aggressiva di Read-ahead"^]
+
 .Funzionalità di scrittura cloud
 Questa funzionalità consente ai client NFS di scrivere direttamente nel Tier di capacità in FabricPool. Questa funzione presenta alcune limitazioni e deve essere utilizzata con cautela. Ad esempio, se il traffico NFS di scrittura cloud viene aggiunto al traffico ONTAP regolare, come SnapMirror, l'obiettivo RPO (Recovery Point Objective) e l'obiettivo RTO (Recovery Time Objective) complessivo in SnapMirror potrebbero risentirne.
+
+Per ulteriori informazioni, consulta la documentazione di ONTAP: https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-volume-cloud-write-task.html["Attiva e disattiva i volumi da scrivere direttamente nel cloud"^]
 
 
 
